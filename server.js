@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/Myprofile',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'index.html')); 
+    res.sendFile(path.join(__dirname, 'ui', 'myprofile.html')); 
 });
 app.get('/Travel',function(req,res){
     res.send('travelling is not completed');
